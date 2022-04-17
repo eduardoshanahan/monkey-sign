@@ -37,7 +37,7 @@ docker compose up
 
 ## Python DoIt
 
-There is also a tasks script to run this with Python DoIt:
+There is also a tasks script to run this with [Python DoIt](https://pydoit.org/):
 
 ```
 $ doit list
