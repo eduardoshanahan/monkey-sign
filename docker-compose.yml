@@ -1,0 +1,13 @@
+services:
+
+  monkeysign1:
+    image: monkeysign:${TAG}
+    hostname: monkeysign1
+    ports:
+      - 8081:80
+
+  monkeysign2:
+    image: monkeysign:${TAG}
+    hostname: monkeysign2
+    ports:
+      - 8082:80
